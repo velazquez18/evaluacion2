@@ -1,10 +1,3 @@
-h1 {
-    color: #5a096e;
-    font-size: 65px; 
-    font-weight: bold; 
-    margin-bottom: 10px; 
-    text-align: center; 
-}
 body {
     background-image: url('https://www.google.com/url?sa=i&url=https%3A%2F%2Fwww.porsche.com%2Fmexico%2Fmodels%2F911%2F911-gt3-rs%2F911-gt3-rs%2F&psig=AOvVaw1Dg-7fhtKq7j8UQHa6D8iZ&ust=1710134593808000&source=images&cd=vfe&opi=89978449&ved=0CBAQjRxqFwoTCOj7vvr56IQDFQAAAAAdAAAAABAD');
     /* Ajusta la ruta según tu estructura de carpetas */
@@ -13,4 +6,22 @@ body {
     background-repeat: no-repeat;
     background-attachment: fixed;
     /* Esto puede ayudar a fijar la imagen de fondo */
+}
+
+a {
+    text-align: center;
+    text-decoration: none;
+    /* Quita la línea de abajo del enlace */
+    color: #631277;
+    /* Color inicial del texto */
+    transition: color 0.3s ease;
+    /* Agrega una transición de color suave al enlace */
+    font-size: 48px;
+    /* Tamaño de fuente, ajusta según tus preferencias */
+    font-weight: bold;
+}
+
+a:hover {
+    color: #bd66d3;
+    /* Cambia el color del texto al pasar el cursor sobre el enlace */
 }

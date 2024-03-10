@@ -1,0 +1,31 @@
+/* Estilo para la lista de pestañas */
+.nav-tabs {
+    display: flex;
+    justify-content: center;
+    margin-bottom: 15px;
+}
+
+/* Estilo para cada elemento de la lista */
+.nav-item {
+    list-style: none;
+    margin: 0 10px;
+    /* Espaciado entre elementos, ajusta según tus preferencias */
+}
+
+/* Estilo para los enlaces */
+.nav-link {
+    text-decoration: none;
+    color: #631277;
+    /* Color inicial del texto */
+    font-family: Arial, sans-serif;
+    /* Cambia la fuente según tus preferencias */
+    transition: color 0.3s ease;
+    /* Agrega una transición de color suave al enlace */
+    font-size: 16px;
+    /* Tamaño de fuente, ajusta según tus preferencias */
+}
+
+/* Cambia el color del texto al pasar el cursor sobre el enlace */
+.nav-link:hover {
+    color: #e057ec;
+}
